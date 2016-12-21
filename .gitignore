@@ -1,0 +1,8 @@
+.idea/
+bin/
+build/
+node_modules/
+.project
+.classpath
+.settings/
+

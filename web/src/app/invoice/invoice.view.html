@@ -1,0 +1,26 @@
+<section class="invoices__page">
+  <div class="invoices__container">
+    <div class="header-invoice__item">
+      <div class="header-invoice__item-issuer">Issuer</div>
+      <div class="header-invoice__item-date">Emission Date</div>
+      <div class="header-invoice__item-products">
+        Products
+      </div>
+    </div>
+
+    <div class="invoices__empty" ng-hide="ICtrl.invoices">
+      No invoice generated yet!
+    </div>
+
+    <div class="invoice__item" ng-repeat="invoice in ICtrl.invoices">
+      <div class="invoice__item-issuer">{{invoice.issuer.name}}, {{invoice.issuer.documentNumber}}</div>
+      <div class="invoice__item-date">{{invoice.emissionDate | date: 'dd/MM/yyyy HH:mm:ss'}}</div>
+      <div class="invoice__item-price">{{invoice.price | currency}}</div>
+      <div class="invoice__item-products">
+        <div class="invoice__item-product" ng-repeat="invoiceProduct in invoice.invoiceProducts track by $index">
+          {{ICtrl.formatInvoice(invoiceProduct)}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

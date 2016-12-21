@@ -1,0 +1,33 @@
+<section class="products__page" ng-init="PCtrl.init()">
+  <div class="products__container">
+    <div class="product__item" ng-repeat="product in PCtrl.products">
+      <div class="product__item-name">{{product.name}}</div>
+      <div class="product__item-price">{{product.price | currency}}</div>
+      <div class="product__item-quantity">
+        <input type="number" ng-model="product.quantity">
+      </div>
+      <div class="product__item-add">
+        <button ng-disabled="!product.quantity || product.quantity <= 0" ng-click="PCtrl.addToInvoice(product)">Add</button>
+      </div>
+    </div>
+  </div>
+  <div class="invoice-products__container" ng-show="PCtrl.invoice.products.length > 0">
+    <div>
+      <label for="documentNumber">Document number: </label>
+      <input id="documentNumber" ng-model="PCtrl.invoice.documentNumber">
+    </div>
+    <div class="invoice-product__item" ng-repeat="product in PCtrl.invoice.products">
+      <div class="invoice-product__item-quantity">
+        <b>{{product.quantity}}</b> of <b>{{product.name}}</b> already added
+      </div>
+      <div class="invoice-product__item-remove">
+        <button ng-click="PCtrl.removeFromInvoice(product)">x</button>
+      </div>
+    </div>
+  </div>
+  <div class="products__buttons">
+    <div class="invoice__create" ng-show="PCtrl.invoice.products.length > 0">
+      <button ng-disabled="!PCtrl.invoice.documentNumber" ng-click="PCtrl.createInvoice(PCtrl.invoice)">Create Invoice</button>
+    </div>
+  </div>
+</section>

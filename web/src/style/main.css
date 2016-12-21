@@ -1,0 +1,31 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+nav {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav > div {
+    padding: 20px;
+    background-color: #424242;
+}
+
+nav > div > a {
+    padding: 20px;
+    font-size: 18px;
+}
+
+nav > div > a:HOVER {
+    background-color: #5d5d5d;
+    cursor: pointer;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f1f1f1;
+}

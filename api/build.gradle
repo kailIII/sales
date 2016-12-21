@@ -1,0 +1,44 @@
+buildscript {
+	repositories { mavenCentral() }
+	dependencies { classpath('org.postgresql:postgresql:9.4.1212.jre7') }
+}
+
+plugins {
+	id 'java'
+	id 'groovy'
+	id 'eclipse'
+	id 'application'
+	id 'idea'
+	id "org.flywaydb.flyway" version "4.0.3"
+}
+
+mainClassName = 'com.github.leosilvadev.ProductsApiApplication'
+
+flyway {
+	url = 'jdbc:postgresql://localhost:5432/sales'
+	user = 'dev'
+	password = 'dev'
+}
+
+jar {
+	baseName = 'products-api'
+	version = '0.0.1-SNAPSHOT'
+}
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories { mavenCentral() }
+
+
+dependencies {
+	compile('org.springframework.boot:spring-boot-starter-data-jpa:1.4.2.RELEASE')
+	compile('org.springframework.boot:spring-boot-starter-web:1.4.2.RELEASE')
+	compile("org.springframework.boot:spring-boot-starter-activemq:1.4.2.RELEASE")
+	compile("org.apache.activemq:activemq-broker")
+	compile('org.postgresql:postgresql:9.4.1212.jre7')
+	
+	testCompile('cglib:cglib-nodep:3.2.4')
+	testCompile('org.codehaus.groovy:groovy-all:2.4.7')
+	testCompile('org.spockframework:spock-core:1.1-groovy-2.4-rc-3')
+	testCompile('org.springframework.boot:spring-boot-starter-test:1.4.2.RELEASE')
+}

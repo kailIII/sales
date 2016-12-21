@@ -1,0 +1,81 @@
+/* styles in src/style directory are applied to the whole page */
+body {
+    background: whitesmoke;
+    color: darkslategrey;
+}
+
+.invoices__page {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.invoices__container {
+    padding: 20px;
+}
+
+.invoices__empty {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+.invoice__item {
+    display: flex;
+    padding: 20px;
+}
+
+.invoice__item:nth-child(odd) {
+    background-color: #EDE7F6;
+}
+
+.invoice__item-issuer {
+    flex-grow: 4;
+    height: 20px;
+}
+
+.invoice__item-date {
+    flex-grow: 2;
+    text-align: left;
+    height: 20px;
+}
+
+.invoice__item-price {
+    flex-grow: 2;
+    text-align: left;
+    height: 20px;
+}
+
+.invoice__item-products {
+    flex-grow: 4;
+    text-align: right;
+}
+
+.header-invoice__item {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #424242;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.header-invoice__item-issuer {
+    flex-grow: 7;
+    line-height: 40px;
+    height: 20px;
+}
+
+.header-invoice__item-date {
+    flex-grow: 2;
+    text-align: left;
+    line-height: 40px;
+    height: 20px;
+}
+
+.header-invoice__item-products {
+    flex-grow: 3;
+    text-align: right;
+    line-height: 40px;
+    height: 20px;
+}

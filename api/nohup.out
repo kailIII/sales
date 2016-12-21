@@ -1,0 +1,240 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.2.RELEASE)
+
+2016-12-21 23:34:00.374  INFO 10017 --- [           main] c.g.leosilvadev.ProductsApiApplication   : Starting ProductsApiApplication on leosilvadev-Inspiron-5447 with PID 10017 (/home/leonardo/dev/workspace/rxjava/sales/api/build/install/api/lib/products-api-0.0.1-SNAPSHOT.jar started by leonardo in /home/leonardo/dev/workspace/rxjava/sales/api)
+2016-12-21 23:34:00.377  INFO 10017 --- [           main] c.g.leosilvadev.ProductsApiApplication   : No active profile set, falling back to default profiles: default
+2016-12-21 23:34:00.455  INFO 10017 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@708f5957: startup date [Wed Dec 21 23:34:00 CET 2016]; root of context hierarchy
+2016-12-21 23:34:02.323  INFO 10017 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$de6b9c51] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-21 23:34:03.001  INFO 10017 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9000 (http)
+2016-12-21 23:34:03.027  INFO 10017 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-12-21 23:34:03.028  INFO 10017 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2016-12-21 23:34:03.181  INFO 10017 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-12-21 23:34:03.182  INFO 10017 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2734 ms
+2016-12-21 23:34:03.367  INFO 10017 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-21 23:34:03.371  INFO 10017 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-21 23:34:03.372  INFO 10017 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-21 23:34:03.372  INFO 10017 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-21 23:34:03.372  INFO 10017 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.2.RELEASE)
+
+2016-12-21 23:34:10.954  INFO 10080 --- [           main] c.g.leosilvadev.ProductsApiApplication   : Starting ProductsApiApplication on leosilvadev-Inspiron-5447 with PID 10080 (/home/leonardo/dev/workspace/rxjava/sales/api/build/install/api/lib/products-api-0.0.1-SNAPSHOT.jar started by leonardo in /home/leonardo/dev/workspace/rxjava/sales/api)
+2016-12-21 23:34:10.957  INFO 10080 --- [           main] c.g.leosilvadev.ProductsApiApplication   : No active profile set, falling back to default profiles: default
+2016-12-21 23:34:11.028  INFO 10080 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@708f5957: startup date [Wed Dec 21 23:34:11 CET 2016]; root of context hierarchy
+2016-12-21 23:34:12.958  INFO 10080 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ee099308] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-21 23:34:13.529  INFO 10080 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9000 (http)
+2016-12-21 23:34:13.545  INFO 10080 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-12-21 23:34:13.547  INFO 10080 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2016-12-21 23:34:13.681  INFO 10080 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-12-21 23:34:13.681  INFO 10080 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2656 ms
+2016-12-21 23:34:13.839  INFO 10080 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-21 23:34:13.844  INFO 10080 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-21 23:34:13.844  INFO 10080 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-21 23:34:13.844  INFO 10080 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-21 23:34:13.845  INFO 10080 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-21 23:34:14.119  INFO 10080 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-21 23:34:14.143  INFO 10080 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-21 23:34:14.216  INFO 10080 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.11.Final}
+2016-12-21 23:34:14.218  INFO 10080 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-12-21 23:34:14.220  INFO 10080 --- [           main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-12-21 23:34:14.261  INFO 10080 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-12-21 23:34:14.600  INFO 10080 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2016-12-21 23:34:14.788  INFO 10080 --- [           main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2016-12-21 23:34:14.790  INFO 10080 --- [           main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@377874b4
+2016-12-21 23:34:16.104  INFO 10080 --- [           main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2016-12-21 23:34:16.848  INFO 10080 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@708f5957: startup date [Wed Dec 21 23:34:11 CET 2016]; root of context hierarchy
+2016-12-21 23:34:16.932  INFO 10080 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/issuers],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.github.leosilvadev.issuer.v1.controller.IssuerController.register(com.github.leosilvadev.issuer.v1.contract.RegistrationContract)
+2016-12-21 23:34:16.933  INFO 10080 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/issuers],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.github.leosilvadev.issuer.v1.controller.IssuerController.list()
+2016-12-21 23:34:16.935  INFO 10080 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/products],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.github.leosilvadev.product.v1.controller.ProductController.register(com.github.leosilvadev.product.v1.contract.RegistrationContract)
+2016-12-21 23:34:16.937  INFO 10080 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/products],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.github.leosilvadev.product.v1.controller.ProductController.list()
+2016-12-21 23:34:16.938  INFO 10080 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/products/{uuid}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.github.leosilvadev.product.v1.controller.ProductController.findOne(java.lang.String)
+2016-12-21 23:34:16.940  INFO 10080 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/invoices],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.github.leosilvadev.invoice.v1.contract.RegistrationContract> com.github.leosilvadev.invoice.v1.controller.InvoiceController.register(com.github.leosilvadev.invoice.v1.contract.RegistrationContract)
+2016-12-21 23:34:16.940  INFO 10080 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/invoices],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.github.leosilvadev.invoice.v1.controller.InvoiceController.list(java.lang.String,java.util.List<java.lang.String>)
+2016-12-21 23:34:16.943  INFO 10080 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-21 23:34:16.944  INFO 10080 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-21 23:34:16.988  INFO 10080 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-21 23:34:16.988  INFO 10080 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-21 23:34:17.044  INFO 10080 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-21 23:34:17.467  INFO 10080 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-12-21 23:34:17.479  INFO 10080 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2016-12-21 23:34:17.595  INFO 10080 --- [           main] o.apache.activemq.broker.BrokerService   : Using Persistence Adapter: MemoryPersistenceAdapter
+2016-12-21 23:34:17.708  INFO 10080 --- [  JMX connector] o.a.a.broker.jmx.ManagementContext       : JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2016-12-21 23:34:17.812  INFO 10080 --- [           main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.13.4 (localhost, ID:leosilvadev-Inspiron-5447-56716-1482359657666-0:1) is starting
+2016-12-21 23:34:17.821  INFO 10080 --- [           main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.13.4 (localhost, ID:leosilvadev-Inspiron-5447-56716-1482359657666-0:1) started
+2016-12-21 23:34:17.821  INFO 10080 --- [           main] o.apache.activemq.broker.BrokerService   : For help or more information please see: http://activemq.apache.org
+2016-12-21 23:34:17.824  WARN 10080 --- [           main] o.apache.activemq.broker.BrokerService   : Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: /home/leonardo/dev/workspace/rxjava/sales/api only has 7511 mb of usable space. - resetting to maximum available disk space: 7511 mb
+2016-12-21 23:34:17.866  INFO 10080 --- [           main] o.a.activemq.broker.TransportConnector   : Connector vm://localhost started
+2016-12-21 23:34:18.120  INFO 10080 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9000 (http)
+2016-12-21 23:34:18.131  INFO 10080 --- [           main] c.g.leosilvadev.ProductsApiApplication   : Started ProductsApiApplication in 7.521 seconds (JVM running for 7.776)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.2.RELEASE)
+
+2016-12-21 23:34:20.818  INFO 10179 --- [           main] c.g.leosilvadev.ProductsApiApplication   : Starting ProductsApiApplication on leosilvadev-Inspiron-5447 with PID 10179 (/home/leonardo/dev/workspace/rxjava/sales/api/build/install/api/lib/products-api-0.0.1-SNAPSHOT.jar started by leonardo in /home/leonardo/dev/workspace/rxjava/sales/api)
+2016-12-21 23:34:20.821  INFO 10179 --- [           main] c.g.leosilvadev.ProductsApiApplication   : No active profile set, falling back to default profiles: default
+2016-12-21 23:34:20.886  INFO 10179 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@708f5957: startup date [Wed Dec 21 23:34:20 CET 2016]; root of context hierarchy
+2016-12-21 23:34:22.988  INFO 10179 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$de6b9c51] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-21 23:34:23.626  INFO 10179 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9000 (http)
+2016-12-21 23:34:23.640  INFO 10179 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-12-21 23:34:23.641  INFO 10179 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2016-12-21 23:34:23.770  INFO 10179 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-12-21 23:34:23.770  INFO 10179 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2887 ms
+2016-12-21 23:34:23.988  INFO 10179 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-21 23:34:23.993  INFO 10179 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-21 23:34:23.994  INFO 10179 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-21 23:34:23.994  INFO 10179 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-21 23:34:23.994  INFO 10179 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-21 23:34:24.365  INFO 10179 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-21 23:34:24.393  INFO 10179 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-21 23:34:24.491  INFO 10179 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.11.Final}
+2016-12-21 23:34:24.493  INFO 10179 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-12-21 23:34:24.495  INFO 10179 --- [           main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-12-21 23:34:24.554  INFO 10179 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-12-21 23:34:24.886  INFO 10179 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2016-12-21 23:34:25.079  INFO 10179 --- [           main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2016-12-21 23:34:25.080  INFO 10179 --- [           main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3281dfc2
+2016-12-21 23:34:26.286  INFO 10179 --- [           main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2016-12-21 23:34:26.952  INFO 10179 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@708f5957: startup date [Wed Dec 21 23:34:20 CET 2016]; root of context hierarchy
+2016-12-21 23:34:27.064  INFO 10179 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/issuers],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.github.leosilvadev.issuer.v1.controller.IssuerController.register(com.github.leosilvadev.issuer.v1.contract.RegistrationContract)
+2016-12-21 23:34:27.066  INFO 10179 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/issuers],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.github.leosilvadev.issuer.v1.controller.IssuerController.list()
+2016-12-21 23:34:27.068  INFO 10179 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/products/{uuid}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.github.leosilvadev.product.v1.controller.ProductController.findOne(java.lang.String)
+2016-12-21 23:34:27.070  INFO 10179 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/products],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.github.leosilvadev.product.v1.controller.ProductController.register(com.github.leosilvadev.product.v1.contract.RegistrationContract)
+2016-12-21 23:34:27.071  INFO 10179 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/products],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.github.leosilvadev.product.v1.controller.ProductController.list()
+2016-12-21 23:34:27.073  INFO 10179 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/invoices],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.github.leosilvadev.invoice.v1.contract.RegistrationContract> com.github.leosilvadev.invoice.v1.controller.InvoiceController.register(com.github.leosilvadev.invoice.v1.contract.RegistrationContract)
+2016-12-21 23:34:27.073  INFO 10179 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/invoices],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.github.leosilvadev.invoice.v1.controller.InvoiceController.list(java.lang.String,java.util.List<java.lang.String>)
+2016-12-21 23:34:27.076  INFO 10179 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-21 23:34:27.076  INFO 10179 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-21 23:34:27.121  INFO 10179 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-21 23:34:27.122  INFO 10179 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-21 23:34:27.198  INFO 10179 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-21 23:34:27.517  INFO 10179 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-12-21 23:34:27.526  INFO 10179 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2016-12-21 23:34:27.603  INFO 10179 --- [           main] o.apache.activemq.broker.BrokerService   : Using Persistence Adapter: MemoryPersistenceAdapter
+2016-12-21 23:34:27.698  WARN 10179 --- [  JMX connector] o.a.a.broker.jmx.ManagementContext       : Failed to start JMX connector Cannot bind to URL [rmi://localhost:1099/jmxrmi]: javax.naming.NameAlreadyBoundException: jmxrmi [Root exception is java.rmi.AlreadyBoundException: jmxrmi]. Will restart management to re-create JMX connector, trying to remedy this issue.
+2016-12-21 23:34:27.774  INFO 10179 --- [           main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.13.4 (localhost, ID:leosilvadev-Inspiron-5447-50603-1482359667627-0:1) is starting
+2016-12-21 23:34:27.787  INFO 10179 --- [           main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.13.4 (localhost, ID:leosilvadev-Inspiron-5447-50603-1482359667627-0:1) started
+2016-12-21 23:34:27.787  INFO 10179 --- [           main] o.apache.activemq.broker.BrokerService   : For help or more information please see: http://activemq.apache.org
+2016-12-21 23:34:27.790  WARN 10179 --- [           main] o.apache.activemq.broker.BrokerService   : Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: /home/leonardo/dev/workspace/rxjava/sales/api only has 7511 mb of usable space. - resetting to maximum available disk space: 7511 mb
+2016-12-21 23:34:27.802  WARN 10179 --- [  JMX connector] o.a.a.broker.jmx.ManagementContext       : Failed to start JMX connector Cannot bind to URL [rmi://localhost:1099/jmxrmi]: javax.naming.NameAlreadyBoundException: jmxrmi [Root exception is java.rmi.AlreadyBoundException: jmxrmi]. Will restart management to re-create JMX connector, trying to remedy this issue.
+2016-12-21 23:34:27.852  INFO 10179 --- [           main] o.a.activemq.broker.TransportConnector   : Connector vm://localhost started
+2016-12-21 23:34:27.983 ERROR 10179 --- [           main] o.a.coyote.http11.Http11NioProtocol      : Failed to start end point associated with ProtocolHandler [http-nio-9000]
+
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_91]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_91]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_91]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_91]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_91]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:874) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:590) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:969) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:233) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:178) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545) [spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at com.github.leosilvadev.ProductsApiApplication.main(ProductsApiApplication.java:12) [products-api-0.0.1-SNAPSHOT.jar:na]
+
+2016-12-21 23:34:27.985 ERROR 10179 --- [           main] o.apache.catalina.core.StandardService   : Failed to start connector [Connector[HTTP/1.1-9000]]
+
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-9000]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:233) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:178) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545) [spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at com.github.leosilvadev.ProductsApiApplication.main(ProductsApiApplication.java:12) [products-api-0.0.1-SNAPSHOT.jar:na]
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:976) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_91]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_91]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_91]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_91]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_91]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:874) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:590) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:969) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	... 14 common frames omitted
+
+2016-12-21 23:34:27.997  INFO 10179 --- [           main] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2016-12-21 23:34:28.047  INFO 10179 --- [           main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2016-12-21 23:34:28.052 ERROR 10179 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 9000 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 9000, or configure this application to listen on another port.
+
+2016-12-21 23:34:28.053  INFO 10179 --- [           main] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@708f5957: startup date [Wed Dec 21 23:34:20 CET 2016]; root of context hierarchy
+2016-12-21 23:34:28.054  INFO 10179 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2016-12-21 23:34:29.076  INFO 10179 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-12-21 23:34:29.093  INFO 10179 --- [           main] o.a.activemq.broker.TransportConnector   : Connector vm://localhost stopped
+2016-12-21 23:34:29.093  INFO 10179 --- [           main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.13.4 (localhost, ID:leosilvadev-Inspiron-5447-50603-1482359667627-0:1) is shutting down
+2016-12-21 23:34:29.099  INFO 10179 --- [           main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.13.4 (localhost, ID:leosilvadev-Inspiron-5447-50603-1482359667627-0:1) uptime 1.531 seconds
+2016-12-21 23:34:29.099  INFO 10179 --- [           main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.13.4 (localhost, ID:leosilvadev-Inspiron-5447-50603-1482359667627-0:1) is shutdown
+2016-12-21 23:34:29.101  INFO 10179 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-12-21 23:34:30.744  INFO 10080 --- [nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-12-21 23:34:30.745  INFO 10080 --- [nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-12-21 23:34:30.766  INFO 10080 --- [nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+Hibernate: select issuer0_.id as id1_2_, issuer0_.active as active2_2_, issuer0_.document_number as document3_2_, issuer0_.email as email4_2_, issuer0_.name as name5_2_, issuer0_.registration_date as registra6_2_, issuer0_.uuid as uuid7_2_ from issuer issuer0_
+2016-12-21 23:34:56.105  INFO 10080 --- [       Thread-6] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@708f5957: startup date [Wed Dec 21 23:34:11 CET 2016]; root of context hierarchy
+2016-12-21 23:34:56.105  INFO 10080 --- [MQ ShutdownHook] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.13.4 (localhost, ID:leosilvadev-Inspiron-5447-56716-1482359657666-0:1) is shutting down
+2016-12-21 23:34:56.107  INFO 10080 --- [       Thread-6] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2016-12-21 23:34:56.122  INFO 10080 --- [MQ ShutdownHook] o.a.activemq.broker.TransportConnector   : Connector vm://localhost stopped
+2016-12-21 23:34:56.123  WARN 10080 --- [enerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Setup of JMS message listener invoker failed for destination 'invoices.register' - trying to recover. Cause: peer (vm://localhost#1) stopped.
+2016-12-21 23:34:56.125  WARN 10080 --- [enerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Setup of JMS message listener invoker failed for destination 'products.register' - trying to recover. Cause: peer (vm://localhost#3) stopped.
+2016-12-21 23:34:56.129  INFO 10080 --- [       Thread-6] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-12-21 23:34:56.150  INFO 10080 --- [       Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-12-21 23:34:56.157  INFO 10080 --- [MQ ShutdownHook] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.13.4 (localhost, ID:leosilvadev-Inspiron-5447-56716-1482359657666-0:1) uptime 38.615 seconds
+2016-12-21 23:34:56.157  INFO 10080 --- [MQ ShutdownHook] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.13.4 (localhost, ID:leosilvadev-Inspiron-5447-56716-1482359657666-0:1) is shutdown

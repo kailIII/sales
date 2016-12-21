@@ -19,6 +19,7 @@ module.exports = function karmaConfig (config) {
 
     files: [
       // Grab all files in the app folder that contain .spec.
+      './node_modules/phantomjs-polyfill-find/find-polyfill.js',
       'src/tests.webpack.js'
     ],
 

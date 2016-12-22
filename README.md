@@ -18,3 +18,5 @@
 ```./run.sh```
 
 Need a postgres instance running on port 5432
+
+Obs.: docker-compose not working yet!

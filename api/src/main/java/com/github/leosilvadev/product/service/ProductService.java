@@ -10,6 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.github.leosilvadev.product.domain.Product;
 import com.github.leosilvadev.product.repository.ProductRepository;
+import com.github.leosilvadev.product.v1.contract.RegistrationContract;
 
 @Service
 public class ProductService {
@@ -36,9 +37,8 @@ public class ProductService {
 	}
 	
 	@Transactional
-	public Product save(Product product) {
-		jmsTemplate.convertAndSend("products.register", product);
-		return product;
+	public void saveAsync(RegistrationContract contract) {
+		jmsTemplate.convertAndSend("products.register", contract);
 	}
 	
 }

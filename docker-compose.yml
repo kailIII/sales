@@ -1,0 +1,35 @@
+version: '2'
+
+services:
+  web:
+    build: ./web
+    ports:
+      - "8080:80"
+    depends_on:
+      - api
+    links:
+      - api:api
+    environment:
+      - API_URL=http://api
+  api:
+    build: ./api
+    ports:
+      - "9000:9000"
+    depends_on:
+      - db
+    links:
+      - db:db
+    environment:
+      - DB_URL=jdbc:postgresql://db/sales
+  db:
+    image: sameersbn/postgresql:9.5-3
+    ports:
+      - "5433:5432"
+    environment:
+      - DEBUG=false
+      - DB_USER=dev
+      - DB_PASS=dev
+      - DB_NAME=sales
+    volumes:
+      - ./pgdata:/var/lib/postgresql
+

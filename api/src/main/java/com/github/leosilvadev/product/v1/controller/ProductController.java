@@ -51,8 +51,8 @@ public class ProductController {
 	
 	@PostMapping
 	public ResponseEntity<?> register(@RequestBody @Valid RegistrationContract contract) {
-		Product product = productService.save(contract.asProduct());
-		return ResponseEntity.accepted().body(product);
+		productService.saveAsync(contract);
+		return ResponseEntity.accepted().body(contract);
 	}
 	
 }

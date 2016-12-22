@@ -15,7 +15,7 @@ plugins {
 mainClassName = 'com.github.leosilvadev.ProductsApiApplication'
 
 flyway {
-	url = 'jdbc:postgresql://localhost:5432/sales'
+	url = "jdbc:postgresql://${System.getenv().DB_URL}/sales"
 	user = 'dev'
 	password = 'dev'
 }

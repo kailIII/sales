@@ -6,8 +6,6 @@ import javax.validation.constraints.NotNull;
 
 import org.hibernate.validator.constraints.NotEmpty;
 
-import com.github.leosilvadev.product.domain.Product;
-
 public class RegistrationContract {
 
 	@NotNull @NotEmpty
@@ -32,10 +30,6 @@ public class RegistrationContract {
 
 	public void setPrice(BigDecimal price) {
 		this.price = price;
-	}
-	
-	public Product asProduct() {
-		return new Product(name, getPrice());
 	}
 
 }

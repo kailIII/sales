@@ -1,5 +1,9 @@
 #!/bin/bash
 
+export DB_URL="jdbc:postgresql://localhost:5432/sales"
+export DB_USERNAME=dev
+export DB_PASSWORD=dev
+
 cd api
 
 echo "Starting web api..."
